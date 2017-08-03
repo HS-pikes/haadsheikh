@@ -1,4 +1,4 @@
-print("Ready to do some calculations\n")
+print("Ready to do some calculations pepople \n")
 print("Enter Number 1:")
 num1=gets
 print("Enter Number 2:")
@@ -28,4 +28,6 @@ op = op.gsub("\n", "")
 if (op=='/') then
   puts ("division is: #{n=num1.to_f/num2.to_f}")
 end
+
+x
 
