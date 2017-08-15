@@ -39,15 +39,8 @@
 # arr<<0
 # puts(arr)
 
-# arr = []
-# arr[0] = [0]
-# arr[1] = ["one"]
-# arr[3] = ["a", "b", "c"]
-# puts(arr[3][0])
-
-print("Enter numbers:")
-puts
-A=gets.chomp
-array1=A.split(" ")
-eve=array1.select {|num| puts num  if (num.to_i%2==0) }
-puts(eve)
+arr = []
+arr[0] = [0]
+arr[1] = ["one"]
+arr[3] = ["a", "b", "c"]
+puts(arr[3][0])
